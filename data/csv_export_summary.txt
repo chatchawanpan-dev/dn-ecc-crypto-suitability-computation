@@ -1,0 +1,2 @@
+Total rows scanned = 1640
+Total h = 4 hits   = 45
