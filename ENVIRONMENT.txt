@@ -1,0 +1,34 @@
+Reproducibility environment for JDMSC submission package
+
+Generated: 2026-05-01
+Working directory:
+  /Users/chatchawan/Desktop/00_Academic_Research/Elliptic-Hyperelliptic-Research-Gaps-JDMSC/Dn-ECC-Crypto-Suitability/JDMSC_submission_package
+
+Operating system:
+  macOS 15.6 (Build 24G84)
+  Darwin 24.6.0 arm64
+
+Hardware:
+  CPU: Apple M3
+  Memory: 8589934592 bytes
+
+Magma:
+  /Applications/Magma/magma
+  Version: V2.29-6
+
+LaTeX:
+  TeX Live 2025
+  latexmk 4.86a
+
+Reproduction commands from ancillary/Magma:
+  magma enum_triples.m
+  magma curve_Eabc.m
+  magma crypto_tests.m
+  magma all_hits.m
+  magma worked_example.m
+  magma -b export_all_rows_csv.m
+
+CSV outputs:
+  ancillary/all_rows.csv: 1640 data rows plus header
+  ancillary/h4_hits.csv: 45 data rows plus header
+  ancillary/csv_export_summary.txt: summary counts
