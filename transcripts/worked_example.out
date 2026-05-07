@@ -1,0 +1,186 @@
+=== Worked example: D(8)-triple (a,b,c) = (1,8,17) ===
+Verify D(n)-triple property:
+  ab + n = 16 = 4^2
+  ac + n = 25 = 5^2
+  bc + n = 144 = 12^2
+
+Defining polynomial f(x) = 136*x^3 + 1288*x^2 + 1664*x + 512
+Weierstrass model E     = Elliptic Curve defined by y^2 = x^3 + 1288*x^2 + 
+226304*x + 9469952 over Rational Field
+a-invariants            = [ 0, 1288, 0, 226304, 9469952 ]
+Discriminant            = 78824057314738176
+j-invariant             = 3590714269297/73410624
+
+Rational 2-torsion E(Q)[2] = Abelian Group isomorphic to Z/2 + Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
+Explicit 2-torsion points (on the integral model) :
+  P_a = (-bc*n,  0) = (-1088, 0)
+  P_b = (-ac*n,  0) = (-136, 0)
+  P_c = (-ab*n,  0) = (-64, 0)
+
+--- Reductions at test primes ---
+
+p = 1009
+  #E(F_p)       = 1016  =  [ <2, 3>, <127, 1> ]
+  trace t       = -6  (|t| <= 2*sqrt(p) ~= 63)
+  lambda mod p  = 637
+  delta mod p   = 952
+  chi(delta)    = -1
+  a_p(L_lambda) = 6
+  direct character-sum # = 1016
+  cofactor h    = 8
+  prime q       = 127  (7-bit)
+  embedding k   = 63
+  anomalous?    = false
+  twist factor d = 11  (nonsquare in F_p)
+  twist #E'     = 1004  =  [ <2, 2>, <251, 1> ]
+  twist cofactor = 4, twist prime = 251 (8-bit)
+
+p = 10007
+  #E(F_p)       = 10120  =  [ <2, 3>, <5, 1>, <11, 1>, <23, 1> ]
+  trace t       = -112  (|t| <= 2*sqrt(p) ~= 200)
+  lambda mod p  = 842
+  delta mod p   = 952
+  chi(delta)    = 1
+  a_p(L_lambda) = -112
+  direct character-sum # = 10120
+  cofactor h    = 440
+  prime q       = 23  (5-bit)
+  embedding k   = 11
+  anomalous?    = false
+  twist factor d = 5  (nonsquare in F_p)
+  twist #E'     = 9896  =  [ <2, 3>, <1237, 1> ]
+  twist cofactor = 8, twist prime = 1237 (11-bit)
+
+p = 100003
+  #E(F_p)       = 100400  =  [ <2, 4>, <5, 2>, <251, 1> ]
+  trace t       = -396  (|t| <= 2*sqrt(p) ~= 632)
+  lambda mod p  = 27733
+  delta mod p   = 952
+  chi(delta)    = 1
+  a_p(L_lambda) = -396
+  direct character-sum # = 100400
+  cofactor h    = 400
+  prime q       = 251  (8-bit)
+  embedding k   = 125
+  anomalous?    = false
+  twist factor d = 2  (nonsquare in F_p)
+  twist #E'     = 99608  =  [ <2, 3>, <12451, 1> ]
+  twist cofactor = 8, twist prime = 12451 (14-bit)
+
+p = 1000003
+  #E(F_p)       = 998908  =  [ <2, 2>, <249727, 1> ]
+  trace t       = 1096  (|t| <= 2*sqrt(p) ~= 2000)
+  lambda mod p  = 672272
+  delta mod p   = 952
+  chi(delta)    = -1
+  a_p(L_lambda) = -1096
+  cofactor h    = 4
+  prime q       = 249727  (18-bit)
+  embedding k   = 41621
+  anomalous?    = false
+  twist factor d = 2  (nonsquare in F_p)
+  twist #E'     = 1001100  =  [ <2, 2>, <3, 1>, <5, 2>, <47, 1>, <71, 1> ]
+  twist cofactor = 14100, twist prime = 71 (7-bit)
+
+p = 10000019
+  #E(F_p)       = 9999852  =  [ <2, 2>, <3, 1>, <19, 1>, <61, 1>, <719, 1> ]
+  trace t       = 168  (|t| <= 2*sqrt(p) ~= 6324)
+  lambda mod p  = 3361352
+  delta mod p   = 952
+  chi(delta)    = -1
+  a_p(L_lambda) = -168
+  cofactor h    = 13908
+  prime q       = 719  (10-bit)
+  embedding k   = 359
+  anomalous?    = false
+  twist factor d = 6  (nonsquare in F_p)
+  twist #E'     = 10000188  =  [ <2, 2>, <3, 2>, <11, 1>, <25253, 1> ]
+  twist cofactor = 396, twist prime = 25253 (15-bit)
+
+p = 100000007
+  #E(F_p)       = 100006880  =  [ <2, 5>, <5, 1>, <19, 1>, <67, 1>, <491, 1> ]
+  trace t       = -6872  (|t| <= 2*sqrt(p) ~= 20000)
+  lambda mod p  = 34453785
+  delta mod p   = 952
+  chi(delta)    = 1
+  a_p(L_lambda) = -6872
+  cofactor h    = 203680
+  prime q       = 491  (9-bit)
+  embedding k   = 1
+  anomalous?    = false
+  twist factor d = 5  (nonsquare in F_p)
+  twist #E'     = 99993136  =  [ <2, 4>, <6249571, 1> ]
+  twist cofactor = 16, twist prime = 6249571 (23-bit)
+
+p = 1000000007
+  #E(F_p)       = 999979976  =  [ <2, 3>, <124997497, 1> ]
+  trace t       = 20032  (|t| <= 2*sqrt(p) ~= 63245)
+  lambda mod p  = 310924373
+  delta mod p   = 952
+  chi(delta)    = -1
+  a_p(L_lambda) = -20032
+  cofactor h    = 8
+  prime q       = 124997497  (27-bit)
+  embedding k   = 62498748
+  anomalous?    = false
+  twist factor d = 5  (nonsquare in F_p)
+  twist #E'     = 1000020040  =  [ <2, 3>, <5, 1>, <43, 1>, <581407, 1> ]
+  twist cofactor = 1720, twist prime = 581407 (20-bit)
+
+p = 10000000019
+  #E(F_p)       = 9999809320  =  [ <2, 3>, <5, 1>, <249995233, 1> ]
+  trace t       = 190700  (|t| <= 2*sqrt(p) ~= 200000)
+  lambda mod p  = 8739495816
+  delta mod p   = 952
+  chi(delta)    = 1
+  a_p(L_lambda) = 190700
+  cofactor h    = 40
+  prime q       = 249995233  (28-bit)
+  embedding k   = 31249404
+  anomalous?    = false
+  twist factor d = 2  (nonsquare in F_p)
+  twist #E'     = 10000190720  =  [ <2, 8>, <5, 1>, <13, 1>, <600973, 1> ]
+  twist cofactor = 16640, twist prime = 600973 (20-bit)
+
+p = 100000000003
+  #E(F_p)       = 99999894276  =  [ <2, 2>, <3, 4>, <13729, 1>, <22481, 1> ]
+  trace t       = 105728  (|t| <= 2*sqrt(p) ~= 632455)
+  lambda mod p  = 63025210087
+  delta mod p   = 952
+  chi(delta)    = -1
+  a_p(L_lambda) = -105728
+  cofactor h    = 4448196
+  prime q       = 22481  (15-bit)
+  embedding k   = 5620
+  anomalous?    = false
+  twist factor d = 2  (nonsquare in F_p)
+  twist #E'     = 100000105732  =  [ <2, 2>, <23, 1>, <29, 1>, <181, 1>, 
+<207079, 1> ]
+  twist cofactor = 482908, twist prime = 207079 (18-bit)
+
+p = 1000000000039
+  #E(F_p)       = 999999512376  =  [ <2, 3>, <3, 1>, <17, 1>, <37, 1>, <1307, 
+1>, <50683, 1> ]
+  trace t       = 487664  (|t| <= 2*sqrt(p) ~= 2000000)
+  lambda mod p  = 67226890760
+  delta mod p   = 952
+  chi(delta)    = 1
+  a_p(L_lambda) = 487664
+  cofactor h    = 19730472
+  prime q       = 50683  (16-bit)
+  embedding k   = 25341
+  anomalous?    = false
+  twist factor d = 3  (nonsquare in F_p)
+  twist #E'     = 1000000487704  =  [ <2, 3>, <19, 1>, <89, 1>, <599, 1>, 
+<123407, 1> ]
+  twist cofactor = 8103272, twist prime = 123407 (17-bit)
+
+--- Summary ---
+At p = 1000003, E has cofactor h = 4 with
+prime q = 249727 of 18 bits; no anomalous reduction occurs
+at any test prime. At p = 1009 the nontrivial quadratic twist has
+h' = 4 with twist prime q' = 251.
