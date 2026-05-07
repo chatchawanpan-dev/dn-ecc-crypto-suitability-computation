@@ -1,0 +1,266 @@
+
+==== n = -3,  (a,b,c) = (1,4,7) ====
+  p =     1009  #E(F_p) = 1008          =  [ <2, 4>, <3, 2>, <7, 1> ]
+                        q = 7 (3-bit),  h = 144,  k = 1,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 2
+  p =    10007  #E(F_p) = 9880          =  [ <2, 3>, <5, 1>, <13, 1>, <19, 1> ]
+                        q = 19 (5-bit),  h = 520,  k = 18,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 128
+  p =   100003  #E(F_p) = 99856         =  [ <2, 4>, <79, 2> ]
+                        q = 79 (7-bit),  h = 1264,  k = 78,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 148
+  p =  1000003  #E(F_p) = 1000680       =  [ <2, 3>, <3, 1>, <5, 1>, <31, 1>, 
+<269, 1> ]
+                        q = 269 (9-bit),  h = 3720,  k = 268,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -676
+  p = 10000019  #E(F_p) = 9997248       =  [ <2, 6>, <3, 1>, <52069, 1> ]
+                        q = 52069 (16-bit),  h = 192,  k = 52068,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 2772
+  p = 100000007  #E(F_p) = 99987520      =  [ <2, 6>, <5, 1>, <41, 1>, <7621, 1>
+]
+                        q = 7621 (13-bit),  h = 13120,  k = 7620,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 12488
+  p = 1000000007  #E(F_p) = 1000035032    =  [ <2, 3>, <23, 1>, <67, 1>, <81119,
+1> ]
+                        q = 81119 (17-bit),  h = 12328,  k = 81118,  anomalous =
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 35024
+  p = 10000000019  #E(F_p) = 10000116216   =  [ <2, 3>, <3, 2>, <138890503, 1> ]
+                        q = 138890503 (28-bit),  h = 72,  k = 138890502,  
+anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -116196
+  p = 100000000003  #E(F_p) = 100000469072  =  [ <2, 4>, <7, 1>, <43, 1>, <61, 
+1>, <340397, 1> ]
+                        q = 340397 (19-bit),  h = 293776,  k = 24314,  anomalous
+= false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -469068
+  p = 1000000000039  #E(F_p) = 1000000748400  =  [ <2, 4>, <3, 1>, <5, 2>, 
+<833333957, 1> ]
+                        q = 833333957 (30-bit),  h = 1200,  k = 833333956,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 748360
+
+==== n = 3,  (a,b,c) = (1,6,13) ====
+  p =     1009  #E(F_p) = 1048          =  [ <2, 3>, <131, 1> ]
+                        q = 131 (8-bit),  h = 8,  k = 26,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 38
+  p =    10007  #E(F_p) = 9900          =  [ <2, 2>, <3, 2>, <5, 2>, <11, 1> ]
+                        q = 11 (4-bit),  h = 900,  k = 10,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -108
+  p =   100003  #E(F_p) = 100112        =  [ <2, 4>, <6257, 1> ]
+                        q = 6257 (13-bit),  h = 16,  k = 6256,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 108
+  p =  1000003  #E(F_p) = 1000768       =  [ <2, 6>, <19, 1>, <823, 1> ]
+                        q = 823 (10-bit),  h = 1216,  k = 822,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -764
+  p = 10000019  #E(F_p) = 9998480       =  [ <2, 4>, <5, 1>, <124981, 1> ]
+                        q = 124981 (17-bit),  h = 80,  k = 41660,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 1540
+  p = 100000007  #E(F_p) = 99994612      =  [ <2, 2>, <17, 1>, <191, 1>, <7699, 
+1> ]
+                        q = 7699 (13-bit),  h = 12988,  k = 7698,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -5396
+  p = 1000000007  #E(F_p) = 999992320     =  [ <2, 10>, <5, 1>, <195311, 1> ]
+                        q = 195311 (18-bit),  h = 5120,  k = 39062,  anomalous =
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 7688
+  p = 10000000019  #E(F_p) = 10000149816   =  [ <2, 3>, <3, 1>, <53, 1>, <97, 
+1>, <81049, 1> ]
+                        q = 81049 (17-bit),  h = 123384,  k = 27016,  anomalous 
+= false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -149796
+  p = 100000000003  #E(F_p) = 99999835152   =  [ <2, 4>, <3, 1>, <7, 1>, <2039, 
+1>, <145963, 1> ]
+                        q = 145963 (18-bit),  h = 685104,  k = 145962,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 
+-164852
+  p = 1000000000039  #E(F_p) = 999998709456  =  [ <2, 4>, <3, 1>, <19, 1>, 
+<1096489813, 1> ]
+                        q = 1096489813 (31-bit),  h = 912,  k = 365496604,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 
+-1290584
+
+==== n = 5,  (a,b,c) = (1,4,11) ====
+  p =     1009  #E(F_p) = 1008          =  [ <2, 4>, <3, 2>, <7, 1> ]
+                        q = 7 (3-bit),  h = 144,  k = 1,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -2
+  p =    10007  #E(F_p) = 10104         =  [ <2, 3>, <3, 1>, <421, 1> ]
+                        q = 421 (9-bit),  h = 24,  k = 210,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 96
+  p =   100003  #E(F_p) = 99732         =  [ <2, 2>, <3, 1>, <8311, 1> ]
+                        q = 8311 (14-bit),  h = 12,  k = 4155,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 272
+  p =  1000003  #E(F_p) = 1000056       =  [ <2, 3>, <3, 1>, <41669, 1> ]
+                        q = 41669 (16-bit),  h = 24,  k = 20834,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 52
+  p = 10000019  #E(F_p) = 9997896       =  [ <2, 3>, <3, 1>, <416579, 1> ]
+                        q = 416579 (19-bit),  h = 24,  k = 416578,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 2124
+  p = 100000007  #E(F_p) = 99983240      =  [ <2, 3>, <5, 1>, <7, 1>, <357083, 
+1> ]
+                        q = 357083 (19-bit),  h = 280,  k = 357082,  anomalous =
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -16768
+  p = 1000000007  #E(F_p) = 1000054484    =  [ <2, 2>, <11, 1>, <13, 1>, <59, 
+1>, <29633, 1> ]
+                        q = 29633 (15-bit),  h = 33748,  k = 29632,  anomalous =
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 54476
+  p = 10000000019  #E(F_p) = 10000074832   =  [ <2, 4>, <11, 1>, <17, 1>, <19, 
+1>, <175909, 1> ]
+                        q = 175909 (18-bit),  h = 56848,  k = 175908,  anomalous
+= false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 74812
+  p = 100000000003  #E(F_p) = 100000028556  =  [ <2, 2>, <3, 2>, <2777778571, 1>
+]
+                        q = 2777778571 (32-bit),  h = 36,  k = 1388889285,  
+anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -28552
+  p = 1000000000039  #E(F_p) = 999998738600  =  [ <2, 3>, <5, 2>, <4999993693, 
+1> ]
+                        q = 4999993693 (33-bit),  h = 200,  k = 2499996846,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 
+-1261440
+
+==== n = 8,  (a,b,c) = (1,8,17) ====
+  p =     1009  #E(F_p) = 1016          =  [ <2, 3>, <127, 1> ]
+                        q = 127 (7-bit),  h = 8,  k = 63,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 6
+  p =    10007  #E(F_p) = 10120         =  [ <2, 3>, <5, 1>, <11, 1>, <23, 1> ]
+                        q = 23 (5-bit),  h = 440,  k = 11,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -112
+  p =   100003  #E(F_p) = 100400        =  [ <2, 4>, <5, 2>, <251, 1> ]
+                        q = 251 (8-bit),  h = 400,  k = 125,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -396
+  p =  1000003  #E(F_p) = 998908        =  [ <2, 2>, <249727, 1> ]
+                        q = 249727 (18-bit),  h = 4,  k = 41621,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -1096
+  p = 10000019  #E(F_p) = 9999852       =  [ <2, 2>, <3, 1>, <19, 1>, <61, 1>, 
+<719, 1> ]
+                        q = 719 (10-bit),  h = 13908,  k = 359,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -168
+  p = 100000007  #E(F_p) = 100006880     =  [ <2, 5>, <5, 1>, <19, 1>, <67, 1>, 
+<491, 1> ]
+                        q = 491 (9-bit),  h = 203680,  k = 1,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -6872
+  p = 1000000007  #E(F_p) = 999979976     =  [ <2, 3>, <124997497, 1> ]
+                        q = 124997497 (27-bit),  h = 8,  k = 62498748,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -20032
+  p = 10000000019  #E(F_p) = 9999809320    =  [ <2, 3>, <5, 1>, <249995233, 1> ]
+                        q = 249995233 (28-bit),  h = 40,  k = 31249404,  
+anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 190700
+  p = 100000000003  #E(F_p) = 99999894276   =  [ <2, 2>, <3, 4>, <13729, 1>, 
+<22481, 1> ]
+                        q = 22481 (15-bit),  h = 4448196,  k = 5620,  anomalous 
+= false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 
+-105728
+  p = 1000000000039  #E(F_p) = 999999512376  =  [ <2, 3>, <3, 1>, <17, 1>, <37, 
+1>, <1307, 1>, <50683, 1> ]
+                        q = 50683 (16-bit),  h = 19730472,  k = 25341,  
+anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 487664
+
+==== n = 12,  (a,b,c) = (1,4,13) ====
+  p =     1009  #E(F_p) = 1016          =  [ <2, 3>, <127, 1> ]
+                        q = 127 (7-bit),  h = 8,  k = 63,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 6
+  p =    10007  #E(F_p) = 9840          =  [ <2, 4>, <3, 1>, <5, 1>, <41, 1> ]
+                        q = 41 (6-bit),  h = 240,  k = 8,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 168
+  p =   100003  #E(F_p) = 99804         =  [ <2, 2>, <3, 1>, <8317, 1> ]
+                        q = 8317 (14-bit),  h = 12,  k = 4158,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -200
+  p =  1000003  #E(F_p) = 1000504       =  [ <2, 3>, <125063, 1> ]
+                        q = 125063 (17-bit),  h = 8,  k = 62531,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -500
+  p = 10000019  #E(F_p) = 9996776       =  [ <2, 3>, <827, 1>, <1511, 1> ]
+                        q = 1511 (11-bit),  h = 6616,  k = 151,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 3244
+  p = 100000007  #E(F_p) = 99998800      =  [ <2, 4>, <5, 2>, <11, 1>, <22727, 
+1> ]
+                        q = 22727 (15-bit),  h = 4400,  k = 11363,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 1208
+  p = 1000000007  #E(F_p) = 999937272     =  [ <2, 3>, <3, 1>, <4583, 1>, <9091,
+1> ]
+                        q = 9091 (14-bit),  h = 109992,  k = 505,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -62736
+  p = 10000000019  #E(F_p) = 9999902088    =  [ <2, 3>, <3, 3>, <11, 1>, <37, 
+1>, <113749, 1> ]
+                        q = 113749 (17-bit),  h = 87912,  k = 37916,  anomalous 
+= false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 97932
+  p = 100000000003  #E(F_p) = 100000243244  =  [ <2, 2>, <11, 1>, <103, 1>, 
+<22065367, 1> ]
+                        q = 22065367 (25-bit),  h = 4532,  k = 22065366,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 243240
+  p = 1000000000039  #E(F_p) = 999998879904  =  [ <2, 5>, <3, 6>, <31, 1>, <953,
+1>, <1451, 1> ]
+                        q = 1451 (11-bit),  h = 689179104,  k = 725,  anomalous 
+= false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 1120136
+
+==== n = 20,  (a,b,c) = (1,5,16) ====
+  p =     1009  #E(F_p) = 984           =  [ <2, 3>, <3, 1>, <41, 1> ]
+                        q = 41 (6-bit),  h = 24,  k = 10,  anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 26
+  p =    10007  #E(F_p) = 9992          =  [ <2, 3>, <1249, 1> ]
+                        q = 1249 (11-bit),  h = 8,  k = 39,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -16
+  p =   100003  #E(F_p) = 100300        =  [ <2, 2>, <5, 2>, <17, 1>, <59, 1> ]
+                        q = 59 (6-bit),  h = 1700,  k = 29,  anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 296
+  p =  1000003  #E(F_p) = 999784        =  [ <2, 3>, <47, 1>, <2659, 1> ]
+                        q = 2659 (12-bit),  h = 376,  k = 1329,  anomalous = 
+false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -220
+  p = 10000019  #E(F_p) = 10002640      =  [ <2, 4>, <5, 1>, <97, 1>, <1289, 1> 
+]
+                        q = 1289 (11-bit),  h = 7760,  k = 184,  anomalous = 
+false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -2620
+  p = 100000007  #E(F_p) = 99994456      =  [ <2, 3>, <12499307, 1> ]
+                        q = 12499307 (24-bit),  h = 8,  k = 6249653,  anomalous 
+= false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = -5552
+  p = 1000000007  #E(F_p) = 1000041192    =  [ <2, 3>, <3, 2>, <13889461, 1> ]
+                        q = 13889461 (24-bit),  h = 72,  k = 13889460,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 41184
+  p = 10000000019  #E(F_p) = 10000137456   =  [ <2, 4>, <3, 2>, <19, 1>, 
+<3655021, 1> ]
+                        q = 3655021 (22-bit),  h = 2736,  k = 3655020,  
+anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = -137436
+  p = 100000000003  #E(F_p) = 100000146188  =  [ <2, 2>, <59, 1>, <423729433, 1>
+]
+                        q = 423729433 (29-bit),  h = 236,  k = 47081048,  
+anomalous = false
+                        Legendre check: chi(delta) = -1,  a_p(L_lambda) = 146184
+  p = 1000000000039  #E(F_p) = 999998772068  =  [ <2, 2>, <73, 1>, <3547, 1>, 
+<965507, 1> ]
+                        q = 965507 (20-bit),  h = 1035724,  k = 482753,  
+anomalous = false
+                        Legendre check: chi(delta) = 1,  a_p(L_lambda) = 1227972
