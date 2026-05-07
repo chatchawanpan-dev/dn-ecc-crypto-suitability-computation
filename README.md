@@ -1,10 +1,15 @@
 # Computation Archive for the JDMSC D(n)-Triple Elliptic-Curve Screen
 
-This repository contains the computation files and numerical outputs for the manuscript:
+This repository contains the computation files and numerical outputs for the
+manuscript:
 
-**Legendre--Twist Point Counts for Split-Cubic Curves from D(n)-Triples: A Bounded Arithmetic Screen**
+**Legendre--Twist Point Counts for Split-Cubic Curves from D(n)-Triples: A
+Bounded Arithmetic Screen**
 
-The repository is intended as the reproducibility archive for the manuscript. It contains the Magma source files, captured transcripts, CSV exports, checksum manifest, and environment notes needed to reproduce the finite-field arithmetic screen.
+The repository is intended as the reproducibility archive for the manuscript.
+It contains the Magma source files, captured transcripts, CSV exports, checksum
+manifest, and environment notes needed to reproduce the finite-field arithmetic
+screen.
 
 ## Repository Layout
 
@@ -24,7 +29,10 @@ The repository is intended as the reproducibility archive for the manuscript. It
 │   ├── all_hits.out
 │   └── worked_example.out
 ├── data/
-│   ├── all_rows.csv
+│   ├── all_rows_part01.csv
+│   ├── all_rows_part02.csv
+│   ├── all_rows_part03.csv
+│   ├── all_rows_part04.csv
 │   ├── h4_hits.csv
 │   └── csv_export_summary.txt
 ├── ENVIRONMENT.txt
@@ -61,7 +69,9 @@ For each sampled good reduction, the scripts compute or verify:
 - all cases in the bounded scan with cofactor `h = 4`;
 - the worked example for `{1, 8, 17}` with `n = 8`.
 
-The computation is a deterministic finite arithmetic screen. It is not a cryptographic parameter-generation procedure and is not a statistical sample for asymptotic density claims.
+The computation is a deterministic finite arithmetic screen. It is not a
+cryptographic parameter-generation procedure and is not a statistical sample
+for asymptotic density claims.
 
 ## File Details
 
@@ -78,18 +88,31 @@ The computation is a deterministic finite arithmetic screen. It is not a cryptog
 
 ### Captured transcripts
 
-The files in `transcripts/` are the captured Magma outputs for the corresponding scripts. The transcript-producing scripts use `SetLogFile(... : Overwrite := true)` so rerunning the scripts overwrites the associated transcript.
+The files in `transcripts/` are the captured Magma outputs for the corresponding
+scripts. The transcript-producing scripts use `SetLogFile(... : Overwrite :=
+true)` so rerunning the scripts overwrites the associated transcript.
 
 ### CSV data
 
-`data/all_rows.csv` contains all `1640` scanned reductions. `data/h4_hits.csv` contains the `45` rows for which the cofactor is `h = 4`. The CSV columns are:
+The four `data/all_rows_part*.csv` files contain all `1640` scanned reductions,
+with the header repeated in each part. They can be reconstructed into a single
+table with:
+
+```text
+awk 'FNR == 1 && NR != 1 {next} {print}' data/all_rows_part*.csv > data/all_rows.csv
+```
+
+The file `data/h4_hits.csv` contains the `45` rows for which the cofactor is
+`h = 4`. The CSV columns are:
 
 ```text
 n, a, b, c, p, lambda, delta, chi_delta, ap_legendre, N,
 factorization_N, q, h, k, b_MOV
 ```
 
-Here `lambda` and `delta` are least nonnegative representatives in `F_p`, `N = #E(F_p)`, `factorization_N` records the prime-power factorization of `N`, and `b_MOV = floor(k log_2 p) + 1`.
+Here `lambda` and `delta` are least nonnegative representatives in `F_p`,
+`N = #E(F_p)`, `factorization_N` records the prime-power factorization of `N`,
+and `b_MOV = floor(k log_2 p) + 1`.
 
 ## Reproducing the Outputs
 
@@ -105,11 +128,14 @@ magma worked_example.m
 magma -b export_all_rows_csv.m
 ```
 
-The first five commands regenerate the transcript files. The final batch command regenerates the CSV files in `data/`.
+The first five commands regenerate the transcript files. The final batch command
+regenerates the single CSV outputs in `data/`; the deposited row-level full
+table is split into four parts for repository upload.
 
 ## Extending the Screen
 
-To increase the enumeration bound, edit the driver variables in the relevant Magma scripts, for example:
+To increase the enumeration bound, edit the driver variables in the relevant
+Magma scripts, for example:
 
 ```text
 H := 150;
@@ -135,4 +161,5 @@ Verify the deposited files with:
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-The environment used for the submitted computations is recorded in `ENVIRONMENT.txt`.
+The environment used for the submitted computations is recorded in
+`ENVIRONMENT.txt`.
