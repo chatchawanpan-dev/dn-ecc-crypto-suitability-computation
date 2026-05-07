@@ -1,0 +1,67 @@
+=== Associated elliptic curves for representative triples ===
+
+---- n = -3,  (a,b,c) = (1,4,7) ----
+Weierstrass coefficients [a1,a2,a3,a4,a6] = [ 0, -117, 0, 3024, -21168 ]
+Discriminant                              = 26665583616
+j-invariant                               = 740772/49
+E(Q)[2]                                   = Abelian Group isomorphic to Z/2 + 
+Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
+
+---- n = 3,  (a,b,c) = (1,6,13) ----
+Weierstrass coefficients [a1,a2,a3,a4,a6] = [ 0, 291, 0, 14040, 164268 ]
+Discriminant                              = 12518010086400
+j-invariant                               = 423026849956/16769025
+E(Q)[2]                                   = Abelian Group isomorphic to Z/2 + 
+Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
+
+---- n = 5,  (a,b,c) = (1,4,11) ----
+Weierstrass coefficients [a1,a2,a3,a4,a6] = [ 0, 295, 0, 17600, 242000 ]
+Discriminant                              = 21344400000000
+j-invariant                               = 10262905636/1334025
+E(Q)[2]                                   = Abelian Group isomorphic to Z/2 + 
+Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
+
+---- n = 8,  (a,b,c) = (1,8,17) ----
+Weierstrass coefficients [a1,a2,a3,a4,a6] = [ 0, 1288, 0, 226304, 9469952 ]
+Discriminant                              = 78824057314738176
+j-invariant                               = 3590714269297/73410624
+E(Q)[2]                                   = Abelian Group isomorphic to Z/2 + 
+Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
+
+---- n = 12,  (a,b,c) = (1,4,13) ----
+Weierstrass coefficients [a1,a2,a3,a4,a6] = [ 0, 828, 0, 134784, 4672512 ]
+Discriminant                              = 13561388781797376
+j-invariant                               = 10218313/1521
+E(Q)[2]                                   = Abelian Group isomorphic to Z/2 + 
+Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
+
+---- n = 20,  (a,b,c) = (1,5,16) ----
+Weierstrass coefficients [a1,a2,a3,a4,a6] = [ 0, 2020, 0, 704000, 51200000 ]
+Discriminant                              = 2854748160000000000
+j-invariant                               = 119168121961/10890000
+E(Q)[2]                                   = Abelian Group isomorphic to Z/2 + 
+Z/2
+Defined on 2 generators
+Relations:
+2*T2.1 = 0
+2*T2.2 = 0
